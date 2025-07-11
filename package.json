@@ -1,0 +1,13 @@
+{
+    "name": "live-translator",
+    "private": true,
+    "scripts": {
+      "install-all": "npm install && npm install --prefix live-translator-backend && npm install --prefix live-translator-frontend",
+      "start-backend": "npm run dev --prefix live-translator-backend",
+      "start-frontend": "npm run start --prefix live-translator-frontend",
+      "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\""
+    },
+    "devDependencies": {
+      "concurrently": "^8.0.0"
+    }
+  }

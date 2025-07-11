@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  /* display: flex; */
+  justify-content: center;
+  max-width: 100w;
+  /* align-items: center; */
+  /* height: 100vh; */
+  background-color: #202020;
+  /* background-color: yellow; */
+}
